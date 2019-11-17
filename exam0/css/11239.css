@@ -42,3 +42,10 @@ a {text-decoration: none; color: inherit;}
 tr:nth-child(2n) {background: rgb(255,255,255)}
 td.tom {background: rgb(211, 211, 211); padding: 0.5rem;}
 td:nth-child(odd) {padding: 0.5rem;}
+
+
+.partner {height: 400px; margin: 0 auto; width: 480px; text-align: center; float: right;}
+.partner h2 {text-align: center;}
+.partner pre {margin:15px 150px 0 0;  font-size: 1.3rem; color: #666; text-align: center}
+.partner_info {margin-top: 10px;}
+.partner_info img:nth-child(1) {width: }
