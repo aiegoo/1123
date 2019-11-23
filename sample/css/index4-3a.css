@@ -1,0 +1,21 @@
+/* 
+div.wrap>.header>.logo>img^^div.section>.navs>.nav*4>div{MENU$$}+ul.sub>li*4>a{submenu$}^^^^div.contents>banner>img^^^div.footer>h2{footer}
+*/
+html, body {margin: 0; padding: 0; width: 100%; height: 100%; text-align: left; color: #000; }
+div, ul, ol, li, h1, h2, h3, h4, h5 {margin: 0; padding: 0; list-style: none}
+
+.clear:both {clear: both; content: ""; display: block}
+a {text-decoration: none; color: inherit}
+
+.wrap {width: 1200px; height: 100%; margin: 0 auto;}
+.header {width: 100%; height: 100px; background: #ccc;}
+.logo {float: left;}
+.section {width: 100%; height: 800px;}
+.navs {width: 200px; height: 800px; float: left;}
+.contents {width: 1000px; height: 800px; float: left;}
+
+.nav {background:#eee; cursor: pointer; }
+.nav > div {background: #999;padding: 1rem}
+.nav > div:hover {background: #eee;}
+.nav > ul {position: absolute; left: 100px; display: none; background: #eee}
+.nav > ul > li {padding: 0.5rem 0.5rem 0.5rem 1.5rem}

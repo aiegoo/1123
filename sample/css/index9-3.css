@@ -1,0 +1,16 @@
+/* 
+div.wrap>a*2+div#modal_bg+div#modal_wrap>div>div#modal_cotent>button#modal_btn */
+html, body {margin: 0; padding: 0; font-size: 16px; color: #000; text-align: left;}
+div, ul, ol, li, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none; color: inherit;}
+
+.clear:after {clear: both; content: ""; display: block;}
+.boxing {border: 1px solid red}
+.wrap {padding: 100px; text-align: center}
+
+
+div#modal_bg {display: none; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0,0,0.2); top: 0;left: 0;}
+#modal_wrap {position: absolute; width: 100%; height: 100%; top: 0; left:0; display: none;}
+#modal_wrap > div {display: table-cell; text-align: center; vertical-align: middle; z-index: 999;}
+#modal_content {width: 300px; height: 300px; background: #f90; text-align: center; line-height: 300px; margin: 0 auto;position: relative;}
+#modal_btn {padding: 1rem; position: absolute;right: 0; bottom: 0;}

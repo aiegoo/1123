@@ -1,0 +1,15 @@
+html, body {margin: 0; padding: 0; width: 100%; height: 100%; text-align: left; color: #000; }
+div, ul, ol, li, h1,h2,h3,h4 {margin: 0; padding: 0; list-style: none}
+a {text-decoration: none}
+.clear:after{clear: both; content: ""; display: block}
+
+.wrap {width: 1200px; height: 100%; margin: 0 auto}
+.header {width: 100%; height: 100px; background: #ccc; line-height: 100px }
+.logo {float: left;}
+.navs {float: right;}
+.nav { float: left; width: 150px; text-align: center; }
+.nav > div {height: 100px;}
+.nav > div:hover {background: #999;}
+.nav > ul {display: none;}
+.nav > ul > li {height: 60px; line-height: 60px; background: #eee; text-align: center;padding: 0.5rem; color: #3b0606}
+.nav > ul > li:hover {background: #999; font-weight: bold;}

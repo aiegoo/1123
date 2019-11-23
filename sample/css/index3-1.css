@@ -1,0 +1,20 @@
+html, body {margin: 0; padding: 0; font-size: 16px; text-align: left; color: #000; width:100%; height: 100%;}
+div, ul, li, ol, h1, h2, h3, h4, a {margin: 0; padding: 0; list-style: none; text-decoration: none;}
+
+.clear:after {clear: both; content: ""; display: block;}
+
+.wrap {width: 1200px; margin: 0 auto; position: relative;}
+
+div.banner-wrap {position: relative; width: 100%; height: 100%; left: 200px;}
+.banner {width: 1000px; height: 400px; margin: 0 0 0 0.5rem; position: relative;}
+.banner > ul {width: 800px; height: 400px; overflow:hidden;}
+
+.header {position: absolute; top: 0; left: 0; width: 200px; height: 200px; background: #ccc;}
+.logo {float: left;  height: 700px;}
+.navs {position: absolute; left: 0; top: 100px; width: 200px;}
+.nav {background: #eee; cursor: pointer;}
+.nav > div {padding: 1rem; background: #999}
+.nav > div > span {float: right; font-size: 1.5rem; margin-top: -0.3rem;}
+.nav > ul {display: none;}
+.nav > ul > li {padding: 0.5rem 0.5rem 0.5rem 1.5rem;}
+.nav > ul > li:hover {background: #ccc}

@@ -1,0 +1,28 @@
+/* div.wrap>.header>.logo>img^^div.section>div.navs>.nav*4>div{MENU$$}+ul.sub>li>a{submenu$}*4 */
+/* index3-2
+   div.wrap>.header.clear>.logo>img^^div.section.clear>div.navs>.nav*4>div{Menu$}+ul>li*4 */
+/* index3 and 4
+div.wrap>.header.clear>.logo>img^^div.section.clear>.navs>.nav*4>div{MENU$$}+ul.sub>li*4>a{submenu$}^^^^div.contents>div.banner^^div.footer
+*/
+
+html, body {padding: 0; margin: 0; width: 100%; height: 100%; font-size: 16px; color: #000; text-align: left;}
+div, ul, ol, li, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none}
+
+.clear:after {clear: both; content: ""; display: block}
+a {text-decoration: none; color: inherit;}
+
+.wrap {width: 1200px; margin: 0 auto;}
+.header {width: 100%; height: 100px; background: #ccc; }
+.logo {float: left;}
+.section {width: 100%; height: 800px; float: left; border: 1px solid sienna}
+.navs {width: 200px; height: 800px; float: left;}
+.contents {width: 1000px; height: 800px; float: left;text-align: center;}
+
+.nav {position: relative;background: #eee; cursor: pointer;}
+.nav > div {padding: 1rem; background: #999;}
+.nav > div:hover {background: #ccc}
+.nav > ul {width: 200px; position: absolute; left: 200px; top: 0; display: none }
+.nav > ul > li { padding: 0.5rem 0.5rem 0.5rem 1.5rem; background: #ccc}
+.nav > ul > li:hover { background-color: rgb(255, 0, 0, 0.2)}
+
+.footer {width: 1200px; height: 300px; border: 1px solid chocolate}

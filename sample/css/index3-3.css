@@ -1,0 +1,22 @@
+/* div.wrap>.header>.logo>img^^div.section>div.navs>.nav*4>div{MENU$$}+ul.sub>li>a{submenu$}*4 */
+/* index3-2
+   div.wrap>.header.clear>.logo>img^^div.section.clear>div.navs>.nav*4>div{Menu$}+ul>li*4 */
+html, body {margin: 0; padding: 0; width: 100%; height: 100%; color: #000; font-size: 16px; text-align: left; }
+div, ul, ol, li, h1, h2, h3, h4 {padding: 0; margin: 0; list-style: none}
+
+.clear:after {clear: both; content: ""; display: block}
+a {text-decoration: none; color: inherit;}
+
+.wrap {width:1200px; margin:0 auto;}
+.header {width:200px; height:100px; background:#ccc;}
+.logo {float:left;}
+.section {width:100%; height:400px;}
+.navs {width:200px; height:800px; float:left;z-index: 999;}
+.section {width:1000px; height:800px; float:left;}
+
+.nav {background:#eee; cursor:pointer;}
+.nav > div {padding:1rem; background:#999;}
+.nav > ul {display:none;}
+.nav > ul > li {padding:0.5rem 1.5rem 0.5rem 1.5rem;  width: 25%;}
+.nav > ul > li {width: 100px;}
+.nav > ul > li a:hover {background:#ccc; width: 100px;}

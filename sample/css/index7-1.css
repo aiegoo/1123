@@ -1,0 +1,23 @@
+html, body {margin: 0; padding: 0; width: 100%; height: 100%; font-size: 16px; color: #000; text-align: left;}
+div, ul, ol, li, h1, h2, h3, h4 {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none;}
+.clear {clear: both; content: ""; display: block;}
+
+.wrap {width: 1200px; margin: 0 auto;}
+.header {width: 100%; height: 100px; background: #eee; line-height: 100px;}
+.logo {float: left;}
+.navs {float: right; position: relative;}
+.nav {float: left; width: 150px;}
+.nav > div {height: 100px; background: rgb(240, 0, 132, 0.2);}
+.nav > div:hover {background: rgba(255, 255, 255, 0.2)}
+.nav > ul {width: 150px;  position: absolute; z-index: 9999; display: none;}
+.nav > ul > li {height: 60px; background: #ccc; line-height: 60px; margin: 1rem 0; }
+.nav > ul > li > a {color: #fff}
+.nav > ul > li:hover {background-attachment: #999;}
+
+
+.section {width: 100%; height: 700px;}
+.banner {width: 1000px; height: 400px; position: relative; margin: 0 auto;}
+.banner > ul {overflow: hidden;}
+.banner > ul > li {position: absolute; top:0; left: 0; z-index: 1;}
+.banner  div {position: absolute; z-index: 99; width: 100%; bottom: 30px; font-weight: bold; color: #fff; text-align: center; cursor: pointer;}
